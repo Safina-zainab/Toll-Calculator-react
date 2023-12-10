@@ -4,7 +4,7 @@ import ViteCSSPlugin from 'vite-plugin-css';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react(), ViteCSSPlugin()],
+  plugins: [react(), ViteCSSPlugin],
   build: {
     rollupOptions: {
       external: ['axios', 'leaflet', '@googlemaps/polyline-codec'],

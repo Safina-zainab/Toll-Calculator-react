@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react()],
   build: {
     rollupOptions: {
-      external: ['axios', 'leaflet', '@googlemaps/polyline-codec'],
+      external: ['axios', 'leaflet', '@googlemaps/polyline-codec','leaflet/dist/leaflet.css'],
     },
   },
 });

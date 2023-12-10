@@ -5,8 +5,8 @@ import react from '@vitejs/plugin-react';
 export default defineConfig({
   plugins: [react()],
   build: {
-    rollupOptions: {
-      external: ['/axios', '/leaflet', '/@googlemaps/polyline-codec','leaflet/dist/leaflet.css'],
+     rollupOptions: {
+      external: ['axios', 'leaflet', '@googlemaps/polyline-codec', 'leaflet/dist/leaflet.css', 'react-leaflet'],
     },
   },
 });

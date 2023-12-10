@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react()],
   build: {
      rollupOptions: {
-      external: ['leaflet']
+      external: ['leaflet','leaflet/dist/leaflet.css']
     },
   },
 });
